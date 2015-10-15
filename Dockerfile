@@ -20,4 +20,6 @@ RUN ihaskell install
 ADD run.sh /run.sh
 RUN chmod +x /run.sh
 
+RUN pip install ipywidgets
+
 CMD /run.sh
